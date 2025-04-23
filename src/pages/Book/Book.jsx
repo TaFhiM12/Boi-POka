@@ -1,6 +1,7 @@
 const Book = ({ singleBook }) => {
   const { bookName, author, image } = singleBook;
   return (
+    // this is very good
     <div className="card bg-base-100 shadow-lg inset-shadow-sm inset-shadow-indigo-500 p-6">
       <figure>
         <img className="w-[200px] h-[300px] object-cover rounded-xl"
